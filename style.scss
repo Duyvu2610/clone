@@ -376,7 +376,7 @@ a {
   }
   &__form {
     background-color: #f2f1f6;
-    @include flex(center, space-between, nowrap);
+    @include flex(center, space-between);
     padding: 2rem;
     margin-bottom: 3.5rem;
   }
@@ -537,6 +537,11 @@ a {
     }
     &__buttons > .btn {
       font-size: 1.2rem;
+    }
+  }
+  .subscribe {
+    &__button {
+      display: none;
     }
   }
 }

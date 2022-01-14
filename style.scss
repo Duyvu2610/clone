@@ -376,7 +376,7 @@ a {
   }
   &__form {
     background-color: #f2f1f6;
-    @include flex(center, space-between);
+    @include flex(center, space-between, nowrap);
     padding: 2rem;
     margin-bottom: 3.5rem;
   }
